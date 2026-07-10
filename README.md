@@ -1,10 +1,10 @@
-# 💳 PaySim Fraud Detection System
+# PaySim Fraud Detection System
 ### Handling Highly Imbalanced Data with Machine Learning
 
 ---
-📌 **Open in Colab:** click here -> (https://colab.research.google.com/drive/1UG1PN7Vif0MrHltRB4QlFxHe7w2gMqNz?usp=sharing)
+**Open in Colab:** click here -> (https://colab.research.google.com/drive/1UG1PN7Vif0MrHltRB4QlFxHe7w2gMqNz?usp=sharing)
 
-## 🚀 Project Overview
+## Project Overview
 
 This project builds a robust machine learning pipeline to detect fraudulent mobile money transactions using the **PaySim dataset**, which simulates real-world financial transaction behavior.
 
@@ -19,7 +19,7 @@ This project focuses on **cost-sensitive learning**, **class imbalance handling*
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 Digital payment platforms process millions of transactions daily. Even a small fraud detection failure rate can lead to significant losses.
 
@@ -32,7 +32,7 @@ The goal is to:
 
 ---
 
-## 📊 Dataset Information
+## Dataset Information
 
 **Dataset:** PaySim Mobile Money Fraud Detection Dataset (Kaggle)
 
@@ -65,7 +65,7 @@ Target variable:
 
 ---
 
-## ⚠️ Class Imbalance Challenge
+## Class Imbalance Challenge
 
 Fraud transactions represent a very small percentage of the dataset, making it a **highly imbalanced classification problem**.
 
@@ -73,7 +73,7 @@ This imbalance causes models to become biased toward predicting legitimate trans
 
 ---
 
-## ⚠️ Why Accuracy is Misleading
+## Why Accuracy is Misleading
 
 If a model predicts all transactions as legitimate:
 
@@ -91,9 +91,9 @@ Therefore, this project evaluates models using:
 
 ---
 
-## 🧠 Machine Learning Pipeline
+## Machine Learning Pipeline
 
-### 1️⃣ Data Preprocessing
+### 1. Data Preprocessing
 
 - Checked for missing values
 - Encoded categorical feature `type`
@@ -104,7 +104,7 @@ Therefore, this project evaluates models using:
 
 ---
 
-### 2️⃣ Handling Class Imbalance
+### 2️. Handling Class Imbalance
 
 Multiple techniques were implemented and compared:
 
@@ -116,7 +116,7 @@ Multiple techniques were implemented and compared:
 
 ---
 
-### 3️⃣ Models Implemented
+### 3️. Models Implemented
 
 - Logistic Regression (with class_weight)
 - Random Forest
@@ -126,7 +126,7 @@ Multiple techniques were implemented and compared:
 
 ---
 
-## 📈 Model Evaluation Strategy
+## Model Evaluation Strategy
 
 Primary optimization focus:
 
@@ -143,7 +143,7 @@ Key Metrics:
 
 ---
 
-## 🏆 Best Model Performance
+## Best Model Performance
 
 Best performing model:
 
@@ -156,7 +156,7 @@ Best performing model:
 
 ---
 
-## 📊 Business Impact Perspective
+## Business Impact Perspective
 
 In real-world systems:
 
@@ -167,7 +167,7 @@ This project prioritizes reducing False Negatives while controlling False Positi
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 paysim-fraud-detection/
@@ -190,7 +190,7 @@ paysim-fraud-detection/
 ├── requirements.txt
 └── README.md
 
-## 📂 Project Structure
+## Project Structure
 
 
 ## 🛠 Tech Stack
@@ -211,7 +211,7 @@ paysim-fraud-detection/
 
 - Seaborn
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Deploy model using Flask / FastAPI
 
@@ -227,7 +227,7 @@ paysim-fraud-detection/
 
 - Automated ML pipeline integration
 
-## 🌍 Real-World Applications
+## Real-World Applications
 
 - Fraud detection systems are used in:
 
@@ -243,7 +243,7 @@ paysim-fraud-detection/
 
 This project simulates a production-grade fraud detection workflow.
 
-## 👩‍💻 Author
+## Author
 
 Manasi Gopale
 Machine Learning Enthusiast
